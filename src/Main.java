@@ -11,7 +11,7 @@ public class Main {
         GetInfoable goalKeeper = new GoalKeeper("Juma","Temirov",LocalDate.of(2003,7,9),182,89.5);
         GetInfoable trener = new Traner("Kubanych","Muktarov");
 
-        GetInfoable[] result = {atacker,defender,goalKeeper,trener,atacker1,atacker2};
+        GetInfoable[] result = {atacker,defender,goalKeeper,trener,atacker1,atacker2,defender1,defender2};
         for (GetInfoable a:result) {
             a.lastName();
             System.out.println("---------------------");
